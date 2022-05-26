@@ -1,0 +1,79 @@
+Settings:
+  command: enchantall
+  aliases: []
+  permission: enchantall.cmd
+  permission-message: '&cVocê não possui permissão para executar esse comando!'
+  use-roman-numbers: true
+  lore-format: '&7{enchantment}: &f{level}'
+
+Messages:
+  command-usage: '&cUso correto: /{cmd} <level> <nome>.'
+  invalid-level: '&cO nível informado é inválido!'
+
+Translations:
+  DAMAGE_ALL: 'Afiação'
+  DIG_SPEED: 'Eficiência'
+  SILK_TOUCH: 'Toque Suave'
+  LOOT_BONUS_BLOCKS: 'Fortuna'
+  FIRE_ASPECT: 'Aspecto Flamejante'
+  PROTECTION_ENVIRONMENTAL: 'Proteção'
+  DURABILITY: 'Inquebrável'
+
+Items:
+  1:
+    display-name: '&7Machado &8- {text}'
+    enchantments:
+      - 'DAMAGE_ALL'
+      - 'DIG_SPEED'
+      - 'SILK_TOUCH'
+      - 'DURABILITY'
+      - 'LOOT_BONUS_BLOCKS'
+      - 'FIRE_ASPECT'
+    materials:
+      - 'DIAMOND_AXE'
+      - 'IRON_AXE'
+      - 'STONE_AXE'
+      - 'WOOD_AXE'
+  2:
+    display-name: '&7Espada &8- {text}'
+    enchantments:
+      - 'DAMAGE_ALL'
+      - 'DURABILITY'
+      - 'FIRE_ASPECT'
+    materials:
+      - 'DIAMOND_SWORD'
+      - 'IRON_SWORD'
+      - 'STONE_SWORD'
+      - 'WOOD_SWORD'
+  3:
+    display-name: '&7Capacete &8- {text}'
+    enchantments:
+      - 'PROTECTION_ENVIRONMENTAL'
+      - 'DURABILITY'
+    materials:
+      - 'DIAMOND_HELMET'
+      - 'IRON_HELMET'
+  4:
+    display-name: '&7Peitoral &8- {text}'
+    enchantments:
+      - 'PROTECTION_ENVIRONMENTAL'
+      - 'DURABILITY'
+    materials:
+      - 'DIAMOND_CHESTPLATE'
+      - 'IRON_CHESTPLATE'
+  5:
+    display-name: '&7Calça &8- {text}'
+    enchantments:
+      - 'PROTECTION_ENVIRONMENTAL'
+      - 'DURABILITY'
+    materials:
+      - 'DIAMOND_LEGGINGS'
+      - 'IRON_LEGGINGS'
+  6:
+    display-name: '&7Botas &8- {text}'
+    enchantments:
+      - 'PROTECTION_ENVIRONMENTAL'
+      - 'DURABILITY'
+    materials:
+      - 'DIAMOND_BOOTS'
+      - 'IRON_BOOTS'

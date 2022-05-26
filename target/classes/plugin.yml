@@ -1,0 +1,5 @@
+name: EnchantAll
+description: Only a simple enchant items plugin.
+version: 1.0
+author: zPedroo_
+main: com.zpedroo.enchantall.EnchantAll
